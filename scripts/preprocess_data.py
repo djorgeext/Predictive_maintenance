@@ -25,5 +25,3 @@ csv_file_path = os.path.join(extract_dir, 'ai4i2020.csv')
 # Read the CSV file into a Pandas DataFrame
 preprocessed_data = pd.read_csv(csv_file_path)
 
-# Print the head of the DataFrame
-print(preprocessed_data.head())
